@@ -6,5 +6,5 @@ jdk:
 after_success:
   - bash <(curl -s https://codecov.io/bash)
 notifications:
-  slack:
-    on_success: always
+  email:
+    - trymrt@gmail.com
